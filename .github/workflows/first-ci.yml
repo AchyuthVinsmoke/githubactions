@@ -1,0 +1,16 @@
+name : first ci demo
+
+on : push
+
+jobs : 
+  
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps :
+      
+      -name : say hell0
+      run : echo "hello your first github action is running"
+
+      -name : list project files
+      run : ls -R
