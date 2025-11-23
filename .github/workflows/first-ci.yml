@@ -1,4 +1,4 @@
-name : first ci demo
+name : first-ci.yml
 
 on : push
 
